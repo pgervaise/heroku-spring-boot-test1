@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.pgervaise.heroku.spring.boot.rest</groupId>
-	<artifactId>test1</artifactId>
+	<artifactId>heroku-spring-boot</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
@@ -13,6 +13,7 @@
 	</parent>
 	
 	<properties>
+	   <java.version>8</java.version>
 	   <HikariCP.version>2.2.4</HikariCP.version>
 	   <javax.inject.version>1</javax.inject.version>
 	</properties>
