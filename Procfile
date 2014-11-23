@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Ddatabase.url=$DATABASE_URL $JAVA_OPTS -jar target/springboot.jar
+web: java -Dserver.port=$PORT -Ddatabase.url=$DATABASE_URL $JAVA_OPTS -jar target/springboot.jar --spring.profiles.active=cloud

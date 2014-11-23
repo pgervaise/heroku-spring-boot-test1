@@ -1,0 +1,12 @@
+spring:
+    profile: cloud
+
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        show-sql: true
+
+    datasource:
+        url: jdbc:postgresql://ec2-184-73-229-220.compute-1.amazonaws.com/d66cuo6obtv4g0
+        username: hcgavhxkluynrg
+        password: UQiKVOd2yEqOJsUGTpmT6wLZzw

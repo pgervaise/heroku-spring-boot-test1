@@ -6,13 +6,7 @@ spring:
             ddl-auto: create-drop
         show-sql: true
             
-
     datasource:
-        platform: postgresql
         url: jdbc:postgresql://localhost/springboot
-#        username: postgres
-#        password: postgres
-        url: jdbc:postgresql://ec2-184-73-229-220.compute-1.amazonaws.com/d66cuo6obtv4g0
-        username: hcgavhxkluynrg
-        password: UQiKVOd2yEqOJsUGTpmT6wLZzw
-        driverClassName: org.postgresql.Driver
+        username: postgres
+        password: postgres
