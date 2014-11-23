@@ -2,3 +2,8 @@ spring:
     datasource:
         platform: postgresql
         driverClassName: org.postgresql.Driver
+
+security:
+    ignored: /resources/**
+    basic:
+        path: /private/**
